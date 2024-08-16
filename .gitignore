@@ -1,0 +1,13 @@
+HELP.md
+
+### Visual studio ###
+/backend/WebAPI/.vs/
+
+/backend/WebAPI/WebAPI/bin/
+
+/backend/WebAPI/WebAPI/Migrations/
+
+/backend/WebAPI/WebAPI/obj/
+
+
+

@@ -1,10 +1,11 @@
 # Fullstack Bank Application
 
-This is a fullstack bank application built using ASP.NET Web API & Angular
+This is a fullstack bank application built using ASP.NET Web API & Angular.
 
-## Features
+It is based on .net v8 and Angular version 18
 
-- Create a new account
+
+
 
 
 

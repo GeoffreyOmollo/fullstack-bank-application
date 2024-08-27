@@ -1,1 +1,104 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(238, 233, 226, 0.904);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.bankheader {
+	width: 80%;
+    background-color: rgba(220, 205, 183, 0.904);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+	margin: 0 auto; 
+}
+
+.center-div-horizontal {
+
+    margin: 0 auto;        /* Auto margins on the left and right */
+}
+
+.outer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+
+.btn-custom {
+    border-color: rgba(216, 157, 67, 0.904);
+	padding: 5px 5px; /* Add padding */
+    border-radius: 5px; /* Round corners */
+}
+
+
+    .btn-custom:hover {
+        background-color: rgba(171, 131, 73, 0.904); 
+        color: #fff;
+        border-color: rgba(154, 111, 48, 0.904);
+    }
+
+
+
+
+.grid-table
+{
+	display:table;
+}
+.thead
+{
+	display:table-header-group;
+	font-weight:bold;
+	border-bottom: 1px solid black;
+    text-align: center;
+    background-color: rgba(220, 205, 183, 0.904);
+}
+.tbody
+{
+	display:table-row-group;
+}
+.tr
+{
+	display:table-row;
+	
+}
+.td
+{
+	display:table-cell;
+	padding: 10px 1px 1px 5px;
+}
+.thead div.tr div.td:last-child{
+    background-color: #fff;
+}
+i:hover{
+	cursor: pointer;
+}
+
+input.ng-invalid.ng-touched,select.ng-invalid.ng-touched{
+	border-color: #dc3545;
+}
+
+
+.elementToFadeInAndOut {
+    -webkit-animation: fadeinout 2s linear forwards;
+    animation: fadeinout 2s linear forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
